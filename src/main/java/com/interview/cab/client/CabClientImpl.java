@@ -16,7 +16,7 @@ import com.interview.cab.response.TripResponse;
 /**
  * CabClient implementation
  *
- * @author Krupa N
+ * @author Krupa Nade
  */
 public class CabClientImpl implements CabClient {
 
