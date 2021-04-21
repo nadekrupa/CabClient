@@ -51,7 +51,7 @@ public class CabClientImpl implements CabClient {
 			return httpClient.sendGet("http://" + host + ":" + port + instance.getProperty("cabService.clearCacheApi"),
 					Collections.emptyMap(), ClearCacheResponse.class);
 		} catch (IOException e) {
-			logger.error("Error occurred calling clear cache remote API", e);
+			logger.error("Error occurred calling clear cache remot API", e);
 			throw new InvalidInputException(
 					"Error occurred calling clear cache remote API. Please make sure that the service is up!");
 		}
