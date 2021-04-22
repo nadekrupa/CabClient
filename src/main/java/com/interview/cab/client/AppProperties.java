@@ -32,7 +32,7 @@ public class AppProperties {
 			appProps.load(new FileInputStream(appConfigPath));
 		} catch (Exception e) {
 			logger.error("Error occurred while reading app.properties", e);
-			throw new InvalidInputException("Error occurred while reading app.properties");
+			throw new InvalidInputException("Error occurred while reading app.propertiess");
 		}
 	}
 	
