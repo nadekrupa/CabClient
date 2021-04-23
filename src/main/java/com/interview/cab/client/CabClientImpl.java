@@ -35,9 +35,9 @@ public class CabClientImpl implements CabClient {
 			return httpClient.sendPost("http://" + host + ":" + port + instance.getProperty("cabService.fetchTripInfoApi")
 					+ "?useCache=" + useCache, tripRequest, Collections.emptyMap(), TripResponse.class);
 		} catch (IOException e) {
-			logger.error("Error occurred calling remote API", e);
+			logger.error("Error occurred calling remotee API", e);
 			throw new InvalidInputException(
-					"Error occurred calling remote API. Please make sure that the service is up!");
+					"Error occurred calling remote API. Please make sure that the services is up!");
 		}
 	}
 
