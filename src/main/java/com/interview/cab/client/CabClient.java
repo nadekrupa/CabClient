@@ -9,7 +9,7 @@ import com.interview.cab.response.TripResponse;
 /**
  * The client interface
  *
- * @author Krupa N
+ * @author Krupa Nade
  */
 public interface CabClient {
 	
